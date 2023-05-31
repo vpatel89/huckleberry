@@ -10,6 +10,28 @@ body {
 }
 
 /* Add styles here! */
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 strong {
   color: hsl(160deg, 100%, 30%);
 }
@@ -30,7 +52,10 @@ main {
 .card {
   background-color: hsla(0, 0%, 100%, 1);
   padding-left: 24px;
+  padding-right: 24px;
   padding-top: 8px;
+  padding-bottom: 24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .max-width-wrapper {
@@ -41,8 +66,15 @@ main {
 
 .indented-heading {
   background: hsla(45, 100%, 50%, 1);
+  font-size: 1.5rem;
+  line-height: 1.2;
   padding-left: 32px;
   padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 1rem;
   width: fit-content;
+  margin: 0;
+  margin-bottom: 24px;
   margin-left: -32px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
